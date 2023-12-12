@@ -34,7 +34,7 @@ To run the repository, simply clone this repository and run the main.m file. Som
 The following figure shows the performance of a neural network created with our framework to recreate a sinusoidal wave. The exact signal can be seen in black, along with the best prediction of the network and the last trained weights:
 
 <p align="center">
-   <img src="/Visualizations/sin15x.jpg" width="650" />
+   <img src="/Visualizations/sin15x.jpg" width="700" />
 </p>
 
 ### Neural network to recreate a polinomial signal
@@ -42,7 +42,7 @@ The following figure shows the performance of a neural network created with our 
 The following figure shows the performance of a neural network created with our framework to recreate a polinomial wave. The exact signal can be seen in black, along with the best prediction of the network and the last trained weights:
 
 <p align="center">
-  <img src="/Visualizations/polinomial.jpg" width="650" />  
+  <img src="/Visualizations/polinomial.jpg" width="700" />  
 </p>
 
 ### Neural network to recreate a polinomial-trigonometrical signal
@@ -50,7 +50,7 @@ The following figure shows the performance of a neural network created with our 
 The following figure shows the performance of a neural network created with our framework to recreate a complicated signal mixing polinomial and trinometrical behaviors. The exact signal can be seen in black, along with the best prediction of the network and the last trained weights:
 
 <p align="center">
-  <img src="/Visualizations/tan_plonomial.jpg" width="650" />  
+  <img src="/Visualizations/tan_plonomial.jpg" width="700" />  
 </p>
 
 ## License
