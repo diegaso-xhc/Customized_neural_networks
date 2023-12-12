@@ -50,7 +50,7 @@ The following figure shows the performance of a neural network created with our 
 The following figure shows the performance of a neural network created with our framework to recreate a complicated signal mixing polinomial and trinometrical behaviors. The exact signal can be seen in black, along with the best prediction of the network and the last trained weights:
 
 <p align="center">
-  <img src="/Visualizations/tan_plonomial.jpg" width="700" />  
+  <img src="/Visualizations/tan_polinomial.jpg" width="700" />  
 </p>
 
 ## License
