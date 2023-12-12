@@ -2,11 +2,10 @@
 
 ## Overview of the repository
 <div align="justify">
-The usage of robotic hands for grasping is one of the main disciplines being explored within the robotics field in recent years. State of the art robot hand designs and control algorithms have not yet reached a performance level comparable to human hands. Part of the reason for this is that conducting real-world experiments to test state-of-the-art algorithms is a convoluted procedure. This repository aims to providing the robotics community with a robot-arm-hand simulation environment in which diverse control strategies can be tested. In our most recent work (currently in publication) we used a similar setup in real-world experiments. Once the journal article is pusblished, we will release the code for transfering of motions to the real world.
+Neural networks are widely used in recent years. They can be considered the entry point to modern machine and deep learning techniques. This repository aims to providing an easy to use customizable framework for neural networks. With our fully open code, users could have an initial understanding on how neural networks work and build upon this code to execute more sophisticated tasks. This repository is a great alternative for teaching purposes and for training neural networks which can be easily deployed in hardware level, such as microcontrollers after selecting optimal weights and biases. 
 <br />
 <br />
-This repository contains an easy-to-use c++ interface with Mujoco, where a fully customized model for a panda robot arm + seed robotics RH8D hand are built. The environment has been designed for good visualizations, so users can directly showcase their applications, without spending extra time into good graphics.
-
+This repository was developed in MATLAB. It allows users to customize easily a neural network with as many layers and nodes as required. It also keeps of the best combination of weights and biases for testing. 
 <br />
 <br />
 
@@ -22,12 +21,9 @@ The repository was developed using the following software version:
 
 ```
 - Ubuntu 20.04.5 LTS
-- g++ (Ubuntu 9.4.0-1ubuntu1~20.04.2)
-- c++ (Ubuntu 9.4.0-1ubuntu1~20.04.2)
-- Mujoco 2.3.0
+- Matlab 2023b
 ```
-To run the repository, please create a folder called "Projects" within your mujoco folder. Then clone the repo within this folder. Following this step, the user can directly modify controllers or robot behaviors by editing the main_panda_RH8D.cpp file. Then simply run:
-
+To run the repository, simply clone this repository and run the main.m file. 
 ```
 ./run_code_ubuntu
 ```
