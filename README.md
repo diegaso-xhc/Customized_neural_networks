@@ -24,48 +24,34 @@ The repository was developed using the following software version:
 - Matlab 2023b
 ```
 
-To run the repository, simply clone this repository and run the main.m file. Some signales have already been preprogrammed there for users to check the behavior of the framework. Next to each signal a suggested neural network structure is shown. Such structures can be easily modified if needed.
-
-Then a window will be launched where the controllers of your main file will be simulated. 
+To run the repository, simply clone this repository and run the main.m file. Some signales have already been preprogrammed there for users to check the behavior of the framework. Next to each signal a suggested neural network structure is shown. Such structures can be easily modified if needed. Finally a plot will be launched comparing the expected exact signals with the performance of your network. 
 <br />
 
-## Contributions
-
-The contributions of this repository can be summarized as follows:
-
-```
-- A ready to use panda-arm-robot-hand simulation.
-- A simple controller framework so users can implement their controllers.
-- In the next couple of months (once our work is published) we will add the algorithms required for motions in real-world.
-```
 ## Examples of GUI usage
 
 ### Neural network to recreate a sinusoidal signal
 
 The following figure shows the performance of a neural network created with our framework to recreate a sinusoidal wave. The exact signal can be seen in black, along with the best prediction of the network and the last trained weights:
 
-
-```
-- Input the transfer function: [numerator separated by commas];[denominator separated by commas]
-- Click on Create Model
-- Input the sampling time (dt), initial time (t(t0)), and final time in seconds.
-- If the user requires a step response, click on Step response. For sine wave excitements, please input the frequency of the sine wave and click on Sine response.
-- The user can then click on get time response or view frequency spectrum.
-- Although visualizations for Bode and Nichols charts are not available at the moment, the user can still click them and extract the frequency responses from the library.
-```
-
 <p align="center">
    <img src="/Visualizations/sin15x.jpg" width="650" />
 </p>
 
-### Time response to a Step-like excitement signal
+### Neural network to recreate a polinomial signal
 
-The following figure shows the time response of a system to a step-like excitement signal:
+The following figure shows the performance of a neural network created with our framework to recreate a polinomial wave. The exact signal can be seen in black, along with the best prediction of the network and the last trained weights:
 
 <p align="center">
-  <img src="/Visualizations/Systems_time_response.PNG" width="650" />  
+  <img src="/Visualizations/polinomial.jpg" width="650" />  
 </p>
 
+### Neural network to recreate a polinomial-trigonometrical signal
+
+The following figure shows the performance of a neural network created with our framework to recreate a complicated signal mixing polinomial and trinometrical behaviors. The exact signal can be seen in black, along with the best prediction of the network and the last trained weights:
+
+<p align="center">
+  <img src="/Visualizations/tan_polinomial.jpg" width="650" />  
+</p>
 
 ## License
 
