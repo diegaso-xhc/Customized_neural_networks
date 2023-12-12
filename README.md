@@ -29,7 +29,7 @@ To run the repository, simply clone this repository and run the main.m file. Som
 
 ## Examples of usage
 
-### Neural network to recreate a sinusoidal signal
+### Neural network to recreate a sine wave
 
 The following figure shows the performance of a neural network created with our framework to recreate a sinusoidal wave. The exact signal can be seen in black, along with the best prediction of the network and the last trained weights:
 
