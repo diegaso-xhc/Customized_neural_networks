@@ -24,7 +24,7 @@ The repository was developed using the following software version:
 - Matlab 2023b
 ```
 
-To run the repository, simply clone this repository and run the main.m file. Some signales have already been preprogrammed there for users to check the behavior of the framework. Next to each signal a suggested neural network structure is shown. Such structures can be easily modified if needed. Finally a plot will be launched comparing the expected exact signals with the performance of your network. 
+To run the repository, simply clone this repository and run the main.m file. Some signales have already been preprogrammed there for users to check the behavior of the framework. Next to each signal, a suggested neural network structure is shown. Such structures can be easily modified if needed. Finally a plot will be launched comparing the expected exact signals with the performance of your network. 
 <br />
 
 ## Examples of GUI usage
