@@ -1,4 +1,4 @@
-# Customized_neural_networks
+# Customized  neural networks
 
 ## Overview of the repository
 <div align="justify">
