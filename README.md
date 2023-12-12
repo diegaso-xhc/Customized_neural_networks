@@ -5,7 +5,7 @@
 Neural networks have been widely used in recent years. They can be considered the entry point to modern machine and deep learning techniques. This repository aims to providing an easy to use customizable framework for neural networks. With our fully open code, users could have an initial understanding on how neural networks work and build upon this code to execute more sophisticated tasks. This repository is a great alternative for teaching purposes and for training neural networks which can be easily deployed in hardware level, such as microcontrollers after selecting optimal weights and biases. 
 <br />
 <br />
-This repository was developed in MATLAB. It allows users to customize easily a neural network with as many layers and nodes as required. It also keeps of the best combination of weights and biases for testing. 
+This repository was developed in MATLAB. It allows users to customize easily a neural network with as many layers and nodes as required. It also keeps track of the best combination of weights and biases for testing. 
 <br />
 <br />
 
